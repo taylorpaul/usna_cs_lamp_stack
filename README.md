@@ -1,6 +1,6 @@
 # Instructions before and after running install.sh
 
-This README provides instructions for cloning this GIST and making the minor changes
+This README provides instructions for cloning this repository and making the minor changes
 you need to make to `install.sh` before running the script.
 
 ## 1) Choose where you install (WSL vs Linux VM)
@@ -48,12 +48,12 @@ cd /mnt/c/Users/m115106
 * It has access to your Computers resources without partitioning them like you must for a VM.
 * You can host a webserver to run your LAMP stack in WSL and access it via Chrome on Windows!
 
-## 2) Clone this GIST:
+## 2) Clone this repository:
 
-In your WSL/VM terminal, navigate to the directory you want to clone this GIST in and run (NOTE: for WSL users it is recommended you clone any repos you want to edit in Atom/your favorite editor on Windows in the proper directory on the Windows drive, i.e. `/mnt/c/Users/m<YOUR_ALPHA>/Documents`):
+In your WSL/VM terminal, navigate to the directory you want to clone this repository in and run (NOTE: for WSL users it is recommended you clone any repos you want to edit in Atom/your favorite editor on Windows in the proper directory on the Windows drive, i.e. `/mnt/c/Users/m<YOUR_ALPHA>/Documents`):
 
 ```
-git clone https://gist.github.com/bb5d7f33739f0837446e358afae67665.git LAMP_script
+git clone https://github.com/taylorpaul/usna_cs_lamp_stack.git LAMP_script
 
 cd LAMP_script
 ```
